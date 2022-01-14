@@ -22,14 +22,14 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 
 ### Mapping ChEMBL "SmallMolecule" to Bioschemas "MolecularEntity"
 
-![chembl-to-bioschemas-molecule](images/chembl-to-bioschemas-molecule.png)
+![chembl-to-bioschemas-molecule](images/chembl-to-bioschemas-molecule.png | width=100)
 
 <br />
 <br />
 
 ### Mapping ChEMBL "SingleProtein" to Bioschemas "Protein"
 
-![chembl-to-bioschemas-protein](images/chembl-to-bioschemas-protein.png)
+![chembl-to-bioschemas-protein](images/chembl-to-bioschemas-protein.png | width=1000)
 
 <br />
 <br />
@@ -48,7 +48,7 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 
 <br />
 
-![swat4hcls-2022-implementation](images/swat4hcls-2022-implementation.png)
+![swat4hcls-2022-implementation](images/swat4hcls-2022-implementation.png | width=800)
 
 
 <br />
