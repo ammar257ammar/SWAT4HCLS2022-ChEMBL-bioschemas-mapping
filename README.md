@@ -17,11 +17,10 @@ The project focused on mapping [ChEMBL](https://www.ebi.ac.uk/chembl/) data onto
 
 The approach adopted in this project is based on using the [ChEMBL mirror SPARQL endpoint (v28)](https://chemblmirror.rdf.bigcat-bioinformatics.org/) hosted by the department of Bioinforamtics at [Maastricht University](https://www.maastrichtuniversity.nl/) (BiGCaT) to construct the new RDF (following the [Bioschemas](https://bioschemas.org/) vocabulary) from the ChEMBL RDF. A mapping between the ChEMBL entities and predicates and the Bioschemas ones was performed using SPARQL queries according to the following figures.
 
-
 <br />
 
 ### Mapping ChEMBL "SmallMolecule" to Bioschemas "MolecularEntity"
-
+<br />
 <p align="center">
   <img width="900" height="auto" src="images/chembl-to-bioschemas-molecule.png">
 </p>
@@ -30,15 +29,13 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 <br />
 
 ### Mapping ChEMBL "SingleProtein" to Bioschemas "Protein"
-
+<br />
 <p align="center">
   <img width="900" height="auto" src="images/chembl-to-bioschemas-protein.png">
 </p>
 
-
 <br />
 <br />
-
 
 ### Implementation
 
@@ -49,7 +46,6 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 - Number of mapped proteins: **8525 proteins**
 - Size of the output JSON-LD: **2.68 GB unzipped (380 MB zipped)**
 - The following figure shows an overview of the implementation
-
 
 <br />
 
