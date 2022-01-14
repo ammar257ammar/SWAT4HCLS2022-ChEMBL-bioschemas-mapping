@@ -48,7 +48,7 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 
 <br />
 
-![swat4hcls-2022-implementation](images/swat4hcls-2022-implementation.png){:height="auto" width="800px"}
+![swat4hcls-2022-implementation](images/swat4hcls-2022-implementation.png){:height="auto" width="100px"}
 
 
 <br />
