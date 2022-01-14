@@ -51,4 +51,7 @@ The approach adopted in this project is based on using the [ChEMBL mirror SPARQL
 ![swat4hcls-2022-implementation](images/swat4hcls-2022-implementation.png)
 
 
+<br />
+<br />
 
+## NOTE: you can dowload the JSON-LD resulted from this project from the releases tab
