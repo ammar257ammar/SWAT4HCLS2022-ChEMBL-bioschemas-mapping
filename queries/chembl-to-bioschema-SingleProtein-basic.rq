@@ -1,0 +1,40 @@
+PREFIX chembl: <http://rdf.ebi.ac.uk/terms/chembl#>
+PREFIX cheminf: <http://semanticscience.org/resource/>
+PREFIX chembl_mol: <http://rdf.ebi.ac.uk/resource/chembl/molecule/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT
+{
+  ?s a schema:Protein ;
+       schema:name ?name ;
+       schema:identifier ?identifier ;
+       schema:taxonomicRange ?taxon .
+  
+  ?taxon a schema:Taxon ;
+           schema:name ?taxonName .
+}
+WHERE
+{
+	VALUES ?s { @_MOLS_@ }
+  
+	?s a chembl:SingleProtein .
+	
+	OPTIONAL{
+		?s rdfs:label ?name .
+	}
+	
+	OPTIONAL{
+		?s chembl:chemblId ?identifier .
+	}
+	
+	OPTIONAL{
+		?s chembl:taxonomy ?taxon .
+	}
+	
+	OPTIONAL{
+		?s chembl:organismName ?taxonName . 
+	}
+}
