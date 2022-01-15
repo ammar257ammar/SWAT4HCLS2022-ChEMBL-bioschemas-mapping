@@ -1,6 +1,5 @@
 # SWAT4HCLS Hackathon Bioshcemas Project
-
-![https://img.shields.io/github/v/release/ammar257ammar/SWAT4HCLS2022-ChEMBL-bioschemas-mapping](https://img.shields.io/github/v/release/ammar257ammar/SWAT4HCLS2022-ChEMBL-bioschemas-mapping)
+[![DOI](https://zenodo.org/badge/448122448.svg)](https://zenodo.org/badge/latestdoi/448122448) ![https://img.shields.io/github/v/release/ammar257ammar/SWAT4HCLS2022-ChEMBL-bioschemas-mapping](https://img.shields.io/github/v/release/ammar257ammar/SWAT4HCLS2022-ChEMBL-bioschemas-mapping)
 
 During the hackathon of [SWAT4HCLS](http://www.swat4ls.org/) (Jan 10-13th 2022), I worked on a project aiming at providing the ChEMBL database in JSON-LD format according to the bioschemas.org vocabulary.
 
